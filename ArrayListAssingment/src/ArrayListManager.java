@@ -40,9 +40,9 @@ public class ArrayListManager {
 			case 2:
 				System.out.println("Enter an integer to remove all intances of it from the list: ");
 				input = keyboard.nextInt();
-				for(int index= 0; index < list.size()-1; index++) {
+				for(int index= 0; index < list.size(); index++) {
 					if(list.get(index) == input) {list.remove(index);}
-					else {continue;}
+					
 					
 				}System.out.println(list.toString());
 				
